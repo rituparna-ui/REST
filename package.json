@@ -1,0 +1,22 @@
+{
+  "name": "rest",
+  "version": "1.0.0",
+  "description": "REST API",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon .",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/rituparna-ui/REST.git"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "Rituparna Warwatkar",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
