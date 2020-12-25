@@ -8,6 +8,12 @@ router.get('/person', (req, res) => {
   });
 });
 
+//query params
 
+router.get('/person/:name', (req, res) => {
+  res.json({
+    message: `You requested for ${req.params.name}`,
+  });
+});
 
 module.exports = router;
